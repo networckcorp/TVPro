@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Descarga TV Latino Pro y disfruta de todo el entretenimiento para toda tu familia desde un solo lugar." />
+  <title>TV Latino Pro - Descarga Oficial</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.85)), 
+                  url('https://images.unsplash.com/photo-1606813902916-9a9c08452d1c?auto=format&fit=crop&w=1740&q=80');
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      text-align: center;
+      padding: 4rem 1.5rem 2rem;
+      overflow-y: auto;
+    }
+
+    h1 {
+      font-size: 2.8rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      letter-spacing: 1px;
+      color: #009245;
+      text-shadow: 0 0 15px rgba(0, 146, 69, 0.5);
+      animation: fadeInDown 1s ease;
+    }
+
+    .logo {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      margin: 0 auto 1.5rem;
+      box-shadow: 0 0 25px rgba(0, 146, 69, 0.6);
+      animation: pulse 2.5s infinite ease-in-out;
+      display: block;
+    }
+
+    p {
+      font-size: 1.15rem;
+      max-width: 600px;
+      margin-bottom: 2rem;
+      line-height: 1.6;
+      color: #ddd;
+      animation: fadeIn 1.5s ease;
+    }
+
+    .btn-download {
+      background: #e50914;
+      color: #fff;
+      padding: 1rem 2.5rem;
+      font-size: 1.1rem;
+      font-weight: 600;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: 0.3s;
+      text-decoration: none;
+      animation: fadeInUp 1.5s ease;
+      display: inline-block;
+      margin-bottom: 2rem;
+    }
+
+    .btn-download:hover {
+      background: #f40612;
+      transform: scale(1.05);
+      box-shadow: 0 0 20px rgba(229, 9, 20, 0.6);
+    }
+
+    .extra-text {
+      max-width: 700px;
+      font-size: 1rem;
+      color: #ccc;
+      line-height: 1.7;
+      animation: fadeIn 2s ease;
+      padding-bottom: 2rem;
+    }
+
+    .highlight {
+      color: #009245;
+      font-weight: 600;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #aaa;
+      margin-top: 2rem;
+    }
+
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); box-shadow: 0 0 20px rgba(0, 146, 69, 0.5); }
+      50% { transform: scale(1.05); box-shadow: 0 0 35px rgba(0, 146, 69, 0.8); }
+    }
+
+    /*  Ajuste especial para pantallas pequeñas */
+    @media (max-height: 700px) {
+      h1 { font-size: 2.3rem; }
+      .logo { width: 100px; height: 100px; }
+      p { font-size: 1rem; }
+    }
+
+    @media (max-width: 400px) {
+      h1 { font-size: 2rem; }
+      .logo { width: 90px; height: 90px; }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>TV Latino Pro</h1>
+  <img src="logo.png" alt="Logo TV Latino Pro" class="logo" />
+
+  <p>Todo el entretenimiento para toda tu familia desde un solo lugar.<br>
+  Series, películas, canales en vivo y mucho más, a solo un clic.</p>
+  
+  <a href="#" class="btn-download"> Descargar Ahora</a>
+
+  <div class="extra-text">
+    <p>Únete a miles de usuarios que ya disfrutan de <span class="highlight">TV Latino Pro</span> y transforma tu manera de ver televisión.  
+    Con nuestra app podrás acceder a los mejores canales en vivo, películas, series y contenido exclusivo desde cualquier lugar y en cualquier momento.</p>
+    <p>Rápida, ligera y sin complicaciones. Compatible con la mayoría de dispositivos Android.  
+    Disfruta una experiencia fluida y moderna, diseñada especialmente para ti y tu familia.</p>
+    <p><span class="highlight">¡No te pierdas más tiempo!</span> Vive el mejor entretenimiento en la palma de tu mano.</p>
+  </div>
+
+  <footer>© 2025 TV Latino Pro. Todos los derechos reservados.</footer>
+
+</body>
+</html>
